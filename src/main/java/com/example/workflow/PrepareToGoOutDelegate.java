@@ -9,7 +9,7 @@ import javax.inject.Named;
 public class PrepareToGoOutDelegate implements JavaDelegate {
     @Override
     public void execute(DelegateExecution delegateExecution) throws Exception {
-        String drug = "cocaine";
+        String drug = "heroin";
         delegateExecution.setVariable("drug", drug);
         System.out.println("Vincent buys drugs in order to prepare to take Mia out. He gets some: " + drug);
 
